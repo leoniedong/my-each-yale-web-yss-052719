@@ -1,5 +1,5 @@
 def my_each(array)
-  array.each.do |element|
-    puts "#{element}"
+  array.collect.do |element|
+    "#{element}"
   end
 end
