@@ -1,4 +1,4 @@
 def my_each(array)
-  array.collect.do |element|
+  array.each.do |element|
     "#{element}"
   end
