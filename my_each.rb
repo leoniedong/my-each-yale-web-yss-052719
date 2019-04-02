@@ -1,5 +1,5 @@
 def my_each(array)
-  array.collect.do |i|
-    puts i
+  array.collect.do |element|
+    puts element
   end
 end
